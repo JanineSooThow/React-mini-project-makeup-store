@@ -1,7 +1,7 @@
 MINI-PROJECT 2 - Project objectives
 
 <!-- write your project objectives here -->
-1. To create a dynamic and interactive frontend Application that uses the core principles of React by using the external API https://www.themealdb.com/api/json/v1/1/filter.php?a=Italian
+1. To create a dynamic and interactive frontend Application that uses the core principles of React by using the external API https://makeup-api.herokuapp.com/api/v1/products.json
 
 Here are the main principles of React:
 
