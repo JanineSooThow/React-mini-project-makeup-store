@@ -1,12 +1,22 @@
-import Header from '../src/components/Header'
+'use client'
+import React from 'react';
+import Header from '../src/components/Header';
 
 
-export default function HomePage() {
+
+const HomePage: React.FC = () => {
   return (
-    <div>
+    <>
       <Header/>
-    </div>
+   
+    </>
   );
-}
+};
+
+export default HomePage;
+
+
+
+
 
 
