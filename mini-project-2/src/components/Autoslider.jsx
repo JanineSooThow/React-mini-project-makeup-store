@@ -1,6 +1,6 @@
 //Autoslider exports to homepage -page.tsx under app folder 
 import React, { useState, useEffect } from 'react';
-import { StyledContainer, StyledImgContainer, StyledImgEl, autoslider } from './assets/css/styled'
+import { StyledContainer, StyledImgContainer, StyledImgEl} from './assets/css/styled'
 
 
 const Autoslider = () => {

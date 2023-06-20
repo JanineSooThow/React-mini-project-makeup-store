@@ -11,6 +11,10 @@ const StyledHeader = styled.header`
     align-items: center;
     position: fixed
    
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 10px;
+      }
 `;
 
 // Makeup Mirage Logo in header
@@ -18,6 +22,11 @@ const Logo = styled.h1`
     color: #ffc2d1;
     font-size: 30px;
     margin-right: 90px
+
+    @media (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
 `;
 
 // other links in header
@@ -27,6 +36,11 @@ const StyledLink = styled.a`
     color: #ffc2d1;
     text-decoration: none;
     margin-right: 70px;
+
+    @media (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
 `;
 
 
