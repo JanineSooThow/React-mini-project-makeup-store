@@ -21,9 +21,9 @@ export const StyledImgContainer = styled.div `
     border 2px solid blue;
     margin: 0 auto;
     width: 1000px;
-    height: 750px;
-    padding-top: 50px;
-    
+    height: 570px;
+    padding-top: 10px;
+
     @media (max-width: 768px) {
         max-width: 90%;
         height: auto;
@@ -33,7 +33,7 @@ export const StyledImgContainer = styled.div `
 
 export const StyledImgEl = styled.img `
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     border: 5px solid yellow;
 `;
