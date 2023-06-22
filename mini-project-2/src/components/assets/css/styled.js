@@ -1,9 +1,10 @@
+//AUTOSLIDER STYLING ON HOMEPAGE
 import styled from 'styled-components'
 
 // Padding: 1st value (top), 2nd value (R padding), 3rd value (bottom), 4th value (left)
 export const StyledContainer = styled.div `
     max-width: 1200px;
-    border: 2px solid red;    
+    // border: 2px solid red;    
 
     @media (max-width: 1200px) {
         padding: 5% 5% 5%;
@@ -18,7 +19,7 @@ export const StyledImgContainer = styled.div `
     display: block;
     justify-content: center;
     align-items: center;
-    border 2px solid blue;
+    // border 2px solid blue;
     margin: 0 auto;
     width: 1000px;
     height: 570px;
@@ -35,5 +36,10 @@ export const StyledImgEl = styled.img `
     height: 100%;
     object-fit: contain;
     width: 100%;
-    border: 5px solid yellow;
+    // border: 5px solid yellow;
 `;
+
+
+
+
+

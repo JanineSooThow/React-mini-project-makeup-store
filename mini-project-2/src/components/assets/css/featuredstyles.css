@@ -1,0 +1,28 @@
+.card-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center; /*aligns content within each card in the center */
+    margin: 15px; 
+    overflow: hidden;/*hides overflow*/
+   
+}
+.card-img-top {
+    object-fit: cover; /*ensures the image fills the space without distortion */
+    height: 150px; /*sets a fixed height */
+}
+.card-body{
+    max-height: 100px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-text{
+    font-size: 10px;
+}
