@@ -16,7 +16,6 @@ const HomePage: React.FC = () => {
         <Autoslider/>
       </StyledImgContainer>
       <br></br>
-  
       <Featured></Featured>
    
    </div>

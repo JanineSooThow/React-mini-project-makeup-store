@@ -1,6 +1,7 @@
 //Autoslider exports to homepage -page.tsx under app folder 
 //importing two functionalities from the React library to enhance the capabilities of your functional components
 import React, { useState, useEffect } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 import {StyledContainer, StyledImgContainer, StyledImgEl} from './assets/css/styled'
 
 //Parent component- Autoslider (defined as a functional component using arrow function syntax. Remember components defined using functions or classes)
@@ -22,17 +23,26 @@ const Autoslider = () => {
     useEffect(() => {
       const interval = setInterval(() => {
         setCurrentSlide((prevSlide) => (prevSlide === images.length - 1 ? 0 : prevSlide + 1));
-      }, 3000);
+      }, 4000);
   
       return () => clearInterval(interval);
     }, [images.length]);
     
+    const handleSlideSelect = (selectedIndex) => {
+      setCurrentSlide(selectedIndex);
+    };
 
     return (
       <StyledContainer >
-        <StyledImgContainer>
-          <StyledImgEl src={images[currentSlide]} alt="Slide" />
-        </StyledImgContainer>
+        <Carousel activeIndex={currentSlide} onSelect={handleSlideSelect} interval= {null}>
+        {images.map((image, index) => (
+          <Carousel.Item key={index}>
+            <StyledImgContainer>
+              <StyledImgEl src={image} alt={`Slide ${index + 1}`} />
+            </StyledImgContainer>
+          </Carousel.Item>
+        ))}
+        </Carousel>
       </StyledContainer>
     );
   };
