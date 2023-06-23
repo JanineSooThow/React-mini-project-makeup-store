@@ -3,7 +3,28 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './assets/css/featuredstyles.css';
+import Link from 'next/link';
 
+
+export default function Header() {
+    
+  return (
+      <>
+    <Navbar className="custom-navbar" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home">Makeup Mirage</Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link className="custom-navlink"href="/Allproducts">All products</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/Brands">Brands</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/Categories">Makeup Category</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/Blog">Blog</Nav.Link>
+          
+        </Nav>
+      </Container>
+    </Navbar>
+  </>
+);
+}
 // import styled from "styled-components";
 
 // // header
@@ -49,38 +70,4 @@ import './assets/css/featuredstyles.css';
 // `;
 
 
-export default function Header() {
-    
-    return (
-        <>
-      <Navbar className="custom-navbar" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Makeup Mirage</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link className="custom-navlink"href="#Allproducts">All products</Nav.Link>
-            <Nav.Link className="custom-navlink"href="#brands">Brands</Nav.Link>
-            <Nav.Link className="custom-navlink"href="#categories">Makeup Category</Nav.Link>
-            <Nav.Link className="custom-navlink"href="#blog">Blog</Nav.Link>
-            
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
-  );
-}
-
-//         <StyledHeader>
-//                 <Logo>Makeup Mirage</Logo>
-//             <nav>
-//                     <StyledLink>All products</StyledLink>
-//                     <StyledLink>Brands</StyledLink>
-//                     <StyledLink>Makeup Category</StyledLink>
-//                     <StyledLink>Sale</StyledLink>
-//                     <StyledLink>Account</StyledLink>
-//                     <StyledLink>Wishlist</StyledLink>
-//                     <StyledLink>Cart (0)</StyledLink>
-//             </nav>
-//         </StyledHeader>
-//     );
-// }
 
