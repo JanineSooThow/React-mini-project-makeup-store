@@ -32,6 +32,7 @@ const featuredproducts = [
 export default function FeaturedList(props) {
   return (
     <div className="parent-container"> 
+     <h3 className="featured-heading">FEATURED </h3>
       <Row xs="auto" className="g-4">
         {featuredproducts.map((product, idx) => (
           <Col key={idx}>

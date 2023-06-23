@@ -2,6 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    flex-direction: column;
+   
   }
 
 .card-container {
@@ -9,7 +12,11 @@
     justify-content: center;
     align-items: center;  
 }
-
+.featured-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*sets a margin, removes the border and adds a subtle box shadow to the cards */
 .featured-card {
     display: flex;
