@@ -1,7 +1,10 @@
 import React from 'react';
-// import '../assets/css/styled';
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import FeaturedItem from './FeaturedItem';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import '../assets/css/featuredstyles.css'
 
 
 const featuredproducts = [
@@ -24,14 +27,18 @@ const featuredproducts = [
 //   </div>
 //   );
 // }
+
+//Using React Bootsrap 
 export default function FeaturedList(props) {
   return (
-      <div className="row">
-          {featuredproducts.map((product) => (
-              <div className="col-md-2" key={product.name}>
-                  <FeaturedItem imageURL={product.imageURL} brand={product.brand} name={product.name} />
-              </div>
-          ))}
-      </div>
+    <div className="parent-container"> 
+      <Row xs="auto" className="g-4">
+        {featuredproducts.map((product, idx) => (
+          <Col key={idx}>
+            <FeaturedItem imageURL={product.imageURL} brand={product.brand} name={product.name} />
+          </Col>
+        ))}
+      </Row>
+    </div>
   );
 }

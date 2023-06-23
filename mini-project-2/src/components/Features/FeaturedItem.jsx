@@ -10,19 +10,22 @@
 //         </div>
 //     );
 // }
+//style={{ width: '200px', height: '250px' }}
+//Using React Bootstrap Cards
 import React from 'react';
-import '../assets/css/featuredstyles.css'
+import Card from 'react-bootstrap/Card';
+import '../assets/css/featuredstyles.css';
 
 export default function FeaturedItem(props) {
-    return (
-        <div className ="card-container">
-                <div className="card">
-                    <img src={props.imageURL} className="card-img-top" alt={props.name} style={{width: '200px', height: '250px'}}/>
-                    <div className="card-body">
-                        <h4 className="card-title">{props.brand}</h4>
-                        <p className="card-text">{props.name}</p>
-                </div>
-            </div>
-        </div>
-    );
+  return (
+    <div className ="card-container">
+        <Card className ="featured-card">
+            <Card.Img variant="top" src={props.imageURL} style={{ width: '200px', height: '250px' }} className ="card-image" /> 
+            <Card.Body>
+                <Card.Title className ="card-title">{props.brand}</Card.Title>
+                <Card.Text className ="card-text">{props.name}</Card.Text>
+            </Card.Body>
+        </Card>
+    </div>
+  );
 }

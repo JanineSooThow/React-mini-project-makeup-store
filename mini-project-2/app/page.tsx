@@ -16,15 +16,9 @@ const HomePage: React.FC = () => {
         <Autoslider/>
       </StyledImgContainer>
       <br></br>
-      <hr style={{ borderTop: '1px solid black', margin: '10px 0' }} />
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-      <h3> FEATURED </h3>
-      </div>
+  
       <Featured></Featured>
-      
-       
-      
-      
+   
    </div>
     </>
   );

@@ -1,28 +1,40 @@
-.card-container {
-    display: block;
+.parent-container {
+    display: flex;
     justify-content: center;
     align-items: center;
-   
+  }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
-.card {
+
+/*sets a margin, removes the border and adds a subtle box shadow to the cards */
+.featured-card {
     display: flex;
     align-items: center;
-    justify-content: center; /*aligns content within each card in the center */
-    margin: 15px; 
-    overflow: hidden;/*hides overflow*/
-   
-}
-.card-img-top {
-    object-fit: cover; /*ensures the image fills the space without distortion */
+    justify-content: center; 
+    margin: 15px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+/*sets the height and applies 'object:cover' to ensure the image fills the space without distortion*/
+.card-image {
+    object-fit: cover;
+    align-items: center; 
     height: 150px; /*sets a fixed height */
 }
-.card-body{
-    max-height: 100px;
-}
+
 .card-title{
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 5px; /*adds small margin below the title */
 }
+
+/*updates the font size and sets the text color */
 .card-text{
     font-size: 10px;
+    color: black;
 }
