@@ -35,13 +35,13 @@ const Autoslider = () => {
     return (
       <StyledContainer >
         <Carousel activeIndex={currentSlide} onSelect={handleSlideSelect} interval= {null}>
-        {images.map((image, index) => (
-          <Carousel.Item key={index}>
-            <StyledImgContainer>
-              <StyledImgEl src={image} alt={`Slide ${index + 1}`} />
-            </StyledImgContainer>
-          </Carousel.Item>
-        ))}
+          {images.map((image, index) => (
+            <Carousel.Item key={index}>
+              <StyledImgContainer>
+                <StyledImgEl src={image} alt={`Slide ${index + 1}`} />
+              </StyledImgContainer>
+            </Carousel.Item>
+           ))}
         </Carousel>
       </StyledContainer>
     );

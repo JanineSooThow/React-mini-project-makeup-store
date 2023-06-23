@@ -1,3 +1,13 @@
+/*Featured Products and Header */
+.custom-navbar{
+    background-color: black;
+    padding: 40px;
+}
+
+.custom-navlink{
+    color: pink;
+}
+/*Featured Products on homepage*/
 .parent-container {
     display: flex;
     justify-content: center;
@@ -6,7 +16,6 @@
     flex-direction: column;
    
   }
-
 .card-container {
     display: flex;
     justify-content: center;
