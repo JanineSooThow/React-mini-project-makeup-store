@@ -14,10 +14,10 @@ export default function Header() {
       <Container>
         <Navbar.Brand href="#home">Makeup Mirage</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link className="custom-navlink"href="/Allproducts">All products</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/Brands">Brands</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/Categories">Makeup Category</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/Blog">Blog</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/products">All products</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/brands">Brands</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/categories">Makeup Category</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/blog">Blog</Nav.Link>
           
         </Nav>
       </Container>

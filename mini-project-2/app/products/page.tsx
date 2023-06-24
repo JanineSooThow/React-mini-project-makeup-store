@@ -31,7 +31,7 @@ function Allproducts() {
           return (
           <p>
             {/* Insert cards here */}
-            {products.id}
+            {products.brand}
           </p>);
         })}
     </div>
