@@ -2,10 +2,9 @@
 import React from "react";
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-
+import useSWR from "swr";
 //simplifies data fetching
 //imports the 'useSWR' hook from the swr library. SWR is a React hook for data fetching that simplifies asynchronous data fetching.
-import useSWR from "swr";
 
 //The 'fetcher' function takes a URL as input, performs a GET reuest to that URL using the 'fetch' function and returns the JSON response of that request.
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
@@ -36,7 +35,11 @@ function Allproducts() {
           return (
             <div className="card-container">
               <Card className ="products-card">
-                <Card.Img variant="top" style={{width: '200px', height: '250px'}} className ="product-image">{products.image_link}</Card.Img>
+                {products.image_link?(
+                  <Card.Img variant="top" style={{width: '200px', height: '250px'}} className ="product-image" src={products.image_link}/>
+                ):(
+                   <div className="no-image">No Image Provided </div>
+                )}
                   <Card.Body>
                     <Card.Title className ="card-title">{products.brand}</Card.Title>
                     <Card.Text className ="card-name">{products.name}</Card.Text> 
