@@ -49,13 +49,13 @@ function AllProducts() {
     <div>
       <div className="pagination-container">
         <Pagination>
-        {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
-            <Pagination.Item
-              key={page}
-              active={page === currentPage}
-              onClick={() => handlePageClick(page)}
-            >
-              {page}
+            {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
+                <Pagination.Item
+                  key={page}
+                  active={page === currentPage}
+                  onClick={() => handlePageClick(page)}
+                >
+                  {page}
             </Pagination.Item>
           ))}
         </Pagination>
