@@ -1,0 +1,50 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .products-card {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .product-image {
+    width: 200px;
+    height: 250px;
+  }
+  
+  .no-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    background-color: lightgray;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-name {
+    font-size: 16px;
+  }
+  
+  .card-dollarsign {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
