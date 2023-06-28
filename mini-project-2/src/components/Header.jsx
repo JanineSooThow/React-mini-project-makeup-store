@@ -15,8 +15,10 @@ export default function Header() {
         <Navbar.Brand href="#home">Makeup Mirage</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link className="custom-navlink"href="/products">All products</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/brands">Brands</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/categories">Makeup Category</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/skin">Skin</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/lips">Lips</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/eyes">Eyes</Nav.Link>
+          <Nav.Link className="custom-navlink"href="/nails">Nails</Nav.Link>
           <Nav.Link className="custom-navlink"href="/blog">Blog</Nav.Link>
           
         </Nav>
