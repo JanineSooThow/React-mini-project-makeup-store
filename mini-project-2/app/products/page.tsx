@@ -25,7 +25,8 @@ function AllProducts() {
     fetcher
   );
 
-  // if(!isLoading){
+  //Code for if an image fails to load 
+  //  if(!isLoading){
   //   data[5].image_link = "https://st3.depositphotos.com/1322515/35964/v/600/depositphotos_359648638-stock-illustration-image-available-icon.jpg"
   //   console.log(data[5].image_link)
   //   console.log(data[5].name)
@@ -99,37 +100,7 @@ function AllProducts() {
 
 export default AllProducts;
 
-      {/* <div className="card-container">
-        {filteredProducts?.map((products: Product, index: number) => (
-          <Card key={index} className="products-card">
-            {products.image_link ? (
-              <Card.Img
-                variant="top"
-                className="product-image"
-                src={products.image_link}
-              />
-            ) : (
-              <div className="no-image">No Image Provided</div>
-            )}
-            <Card.Body>
-              <Card.Title className="card-title">{products.brand}</Card.Title>
-              <Card.Text className="card-name">{products.name}</Card.Text>
-              <Card.Text className="card-dollarsign">
-                {products.price_sign}
-                {products.price} {products.currency}
-              </Card.Text>
-              <div className="button-container">
-                <Button variant="dark">Buy now</Button>
-              </div>
-            </Card.Body>
-          </Card>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-export default AllProducts; */}
+    
 
 //OLD CODE 
 // "use client";
