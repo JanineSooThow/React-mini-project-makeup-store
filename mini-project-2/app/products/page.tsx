@@ -1,6 +1,5 @@
-
 "use client"
-import React, {useState}from 'react';
+import React, {useState, useEffect}from 'react';
 import Pagination from 'react-bootstrap/Pagination';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -19,10 +18,18 @@ interface Product {
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 function AllProducts() {
+
   const { data, error, isLoading } = useSWR<Product[]>(
     'https://makeup-api.herokuapp.com/api/v1/products.json',
+    // "/api/staticdata.jsx",
     fetcher
   );
+
+  // if(!isLoading){
+  //   data[5].image_link = "https://st3.depositphotos.com/1322515/35964/v/600/depositphotos_359648638-stock-illustration-image-available-icon.jpg"
+  //   console.log(data[5].image_link)
+  //   console.log(data[5].name)
+  // }
 
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 100;
@@ -91,6 +98,38 @@ function AllProducts() {
 }
 
 export default AllProducts;
+
+      {/* <div className="card-container">
+        {filteredProducts?.map((products: Product, index: number) => (
+          <Card key={index} className="products-card">
+            {products.image_link ? (
+              <Card.Img
+                variant="top"
+                className="product-image"
+                src={products.image_link}
+              />
+            ) : (
+              <div className="no-image">No Image Provided</div>
+            )}
+            <Card.Body>
+              <Card.Title className="card-title">{products.brand}</Card.Title>
+              <Card.Text className="card-name">{products.name}</Card.Text>
+              <Card.Text className="card-dollarsign">
+                {products.price_sign}
+                {products.price} {products.currency}
+              </Card.Text>
+              <div className="button-container">
+                <Button variant="dark">Buy now</Button>
+              </div>
+            </Card.Body>
+          </Card>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default AllProducts; */}
 
 //OLD CODE 
 // "use client";
