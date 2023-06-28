@@ -22960,27 +22960,7 @@
         "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/304/original/data?1514063297",
         "product_colors": []
     },
-    {
-        "id": 303,
-        "brand": "milani",
-        "name": "Milani Everyday Eyes Powder Eyeshadow Collection",
-        "price": "12.99",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/8a7832489e0792cb0a1e4d4d24bf3efd_ra,w158,h184_pa,w158,h184.jpg",
-        "product_link": "https://well.ca/products/milani-everyday-eyes-powder_117798.html",
-        "website_link": "https://well.ca",
-        "description": "With Milani Everyday Eyes Powder Eyeshadow Collection you can contour, \ncolor and create endless looks with a first-of-its-kind eye contouring \nand highlighting collection.  Each Everyday Eyes eyeshadow palette comes\n with six richly pigmented shades and a step-by-step guide for \nprofessional-looking results. Each shade is expertly coordinated to work\n well in any order to create brilliantly beautiful, one-of-a-kind \nstyles.  Dual-ended, pro-artistry brush included. Application: Step 1:HIGHLIGHT-Sweep BASE color across lid from lash line to brow boneStep 2:CONTOUR-Apply CONTOUR shade under the brow bone, blending from inner to outer cornerStep 3:COLOR-Tap LID color onto center of lid, blending wellStep 4:DEPTH-Apply CREASE color to outer corner blending through creaseStep 5:BRIGHTEN-Tap SPECIALTY shade lightly on inner corner of eyeStep 6:DEFINE-Apply LINER color close to upper and lower lash lines Ingredients: Mica\n (CI 77019), Talc, Cetearyl Isononanoate, Dimethicone, Boron Nitride, \nZinc Stearate, Sodium Dehydroacetate, Phenoxyethanol, Sorbic Acid, Tin \nOxide, Ethylene/Acrylic Acid Copolymer, Poloxamer 338, Silica. +/- May \nContain: Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77492, \nCI 77499).",
-        "rating": 5.0,
-        "category": null,
-        "product_type": "eyeshadow",
-        "tag_list": [],
-        "created_at": "2016-10-01T18:30:51.834Z",
-        "updated_at": "2017-12-23T21:08:17.744Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/303.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/303/original/data?1514063297",
-        "product_colors": []
-    },
+   
     {
         "id": 302,
         "brand": "almay",
@@ -23329,48 +23309,7 @@
         "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/292/original/data?1514063297",
         "product_colors": []
     },
-    {
-        "id": 291,
-        "brand": "maybelline",
-        "name": "Maybelline Eye Studio Color Tattoo 24HR Cream Gel Shadow Leather",
-        "price": "8.99",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/cf21d194ab14ee3c527d02682c358a7a_ra,w158,h184_pa,w158,h184.png",
-        "product_link": "https://well.ca/products/maybelline-eye-studio-color-tattoo_95143.html",
-        "website_link": "https://well.ca",
-        "description": "\n                       \n\tSo rich. So creamy. Only Maybelline's cream gel eye shadow formula gets the look of couture leather so right!\n\t\t\n\t\t\t\n\t\t\t\tDare to wear Maybelline Color Tattoo leather 24HR long wear eye shadow.Features: Ink technology creates 24HR wear shadow for our most intense, long-lasting color saturationCream eye shadow formula glides on without creasing and keeps color vibrantOphthalmologist-tested.  Safe for sensitive eyes and contact lens wearers\n\t\tShade Range: \n\t\n\n                    \n                ",
-        "rating": 4.3,
-        "category": null,
-        "product_type": "eyeshadow",
-        "tag_list": [],
-        "created_at": "2016-10-01T18:30:28.176Z",
-        "updated_at": "2017-12-23T21:08:16.007Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/291.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/291/original/open-uri20171223-4-1693fvq?1514063295",
-        "product_colors": [
-            {
-                "hex_value": "#8A665B",
-                "colour_name": "Chocolate Suede (95) "
-            },
-            {
-                "hex_value": "#BD9786",
-                "colour_name": "Creamy Beige (80) "
-            },
-            {
-                "hex_value": "#98907A",
-                "colour_name": "Deep Forest (85) "
-            },
-            {
-                "hex_value": "#484A4E",
-                "colour_name": "Dramatic Black (100) "
-            },
-            {
-                "hex_value": "#B196A6",
-                "colour_name": "Vintage Plum (90) "
-            }
-        ]
-    },
+    
     {
         "id": 290,
         "brand": "dr. hauschka",
@@ -23989,30 +23928,7 @@
             }
         ]
     },
-    {
-        "id": 274,
-        "brand": "pacifica",
-        "name": "Pacifica Natural Minerals Solar Complete Color Mineral Palette",
-        "price": "60.0",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/baf991d5944d310d8c337423486b77ea_ra,w158,h184_pa,w158,h184.jpeg",
-        "product_link": "https://well.ca/products/pacifica-natural-minerals-solar_86675.html?cat=328",
-        "website_link": "https://well.ca",
-        "description": "All you need to look naturally gorgeous!  The Solar Complete Mineral Palette is a full set of eye shadows, blush, bronzer and coconut highlighters all in one beautiful, recyclable palette.  Each natural mineral shadow is highly pigmented and so smooth it applies like a cream.  Plus the new blush and bronzer are infused with coconut, apply easily and can be layered to build color.  The coconut highlighters are in two new shades as well as the popular Island Rose and can be used on cheekbones, eye brow bones, and even the lips to provide the perfect amount of natural brightness.  With a variety of colors, many looks are achievable so you can be natural by day or smokin' hot by night.Colours Included:Eye shades: Neptune, Glow, Treasure, Coral, Mermaid Aqua, SandalwoodCheek shades: Flushed, BronzedHighlighter shades: Gold Dust, Island Rose, Pink Opal",
-        "rating": 4.9,
-        "category": null,
-        "product_type": "bronzer",
-        "tag_list": [
-            "Vegan",
-            "Natural"
-        ],
-        "created_at": "2016-10-01T18:30:02.836Z",
-        "updated_at": "2017-12-23T21:08:48.370Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/274.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/274/original/data?1514063328",
-        "product_colors": []
-    },
+  
     {
         "id": 273,
         "brand": "maybelline",
@@ -24768,29 +24684,7 @@
             }
         ]
     },
-    {
-        "id": 243,
-        "brand": "physicians formula",
-        "name": "Physicians Formula Shimmer Strips Eye Enhancing Eyeliner Trio ",
-        "price": "14.79",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/b5c7acadc4e472a567e428979d68357c_ra,w158,h184_pa,w158,h184.jpeg",
-        "product_link": "https://well.ca/products/physicians-formula-shimmer-strips_70958.html",
-        "website_link": "https://well.ca",
-        "description": "Warm Nude Eyeliner Trio!  The perfect set of earth tone eyeliners to create a Warm Nude look for ANY eye color! Long-wearing, water-resistant and smudge-resistant formula for 24-Hour wear.Tips and Tricks for a Smoky Eye: Apply Eyeliner at the base of upper and lower lash line. Layer shades together for endless looks!Ingredients: Cyclopentasiloxane. Trimethylsiloxysilicate. Polyethylene. Ozokerite. \nLauroyl Lysine. Synthetic Beeswax. Octyldodecanol. Disteardimonium \nHectorite. Propylene Carbonate.  Lecithin. Ascorbyl Palmitate. Citric \nAcid. Tocopherol.  May Contain: Iron Oxides. Titanium Dioxide. Mica. \nAluminum Powder. Bismuth Oxychloride. Black 2. Blue 1 Lake. Carmine. \nChromium Hydroxide Green. Chromium Oxide Greens. Ferric Ammonium \nFerrocyanide. Ferric Ferrocyanide. Manganese Violet. Silica. Tin Oxide. \nUltramarines. Yellow 5 Lake.Hypoallergenic. Fragrance-free. Paraben-Free. Gluten Free.  \nDermatologist approved. Safe for sensitive eyes and contact lens \nwearers.",
-        "rating": 5.0,
-        "category": "pencil",
-        "product_type": "eyeliner",
-        "tag_list": [
-            "Gluten Free"
-        ],
-        "created_at": "2016-10-01T18:29:14.986Z",
-        "updated_at": "2017-12-23T20:51:33.744Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/243.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/243/original/data?1514062293",
-        "product_colors": []
-    },
+   
     {
         "id": 242,
         "brand": "l'oreal",
@@ -25093,40 +24987,7 @@
         "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/232/original/open-uri20171223-4-1gco531?1514062291",
         "product_colors": []
     },
-    {
-        "id": 231,
-        "brand": "almay",
-        "name": "Almay Intense i-Colour Bring Out Eyeliner",
-        "price": "10.99",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/384c7e6d20cf4ad138b7120b43a8a310_ra,w158,h184_pa,w158,h184.jpeg",
-        "product_link": "https://well.ca/products/almay-intense-i-colour-bring-out_4442.html",
-        "website_link": "https://well.ca",
-        "description": "\n\nBring out your eye color with rich contrasting color! This eyeliner softly defines your eyes with a pearlescent color that will make your eye color pop. Comes with a convenient built in sharpener that ensures precise application— and resists smudging and fading throughout the day. Features: \n\nHypoallergenic\nNon-irritating\nOphthalmologist, Clinically and allergy tested\nSuitable for contact lens wearers\n\n\n",
-        "rating": 4.3,
-        "category": "pencil",
-        "product_type": "eyeliner",
-        "tag_list": [],
-        "created_at": "2016-10-01T18:28:58.264Z",
-        "updated_at": "2017-12-23T20:51:31.030Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/231.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/231/original/data?1514062290",
-        "product_colors": [
-            {
-                "hex_value": "#79361d",
-                "colour_name": "Brown Topaz for Blue Eyes "
-            },
-            {
-                "hex_value": "#403D69",
-                "colour_name": "Purple Amethyst Brown Eyes "
-            },
-            {
-                "hex_value": "#5E4643",
-                "colour_name": "Raisin Quartz for Green Eyes "
-            }
-        ]
-    },
+   
     {
         "id": 230,
         "brand": "maybelline",
@@ -25220,36 +25081,7 @@
             }
         ]
     },
-    {
-        "id": 227,
-        "brand": null,
-        "name": "Earth Lab Vegan Mineral Eye Pencil",
-        "price": "18.0",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/e43ef102523ce5c38bd92ce1cb562395_ra,w158,h184_pa,w158,h184.jpeg",
-        "product_link": "https://well.ca/products/earth-lab-vegan-mineral-eye-pencil_78793.html",
-        "website_link": "https://well.ca",
-        "description": "These natural minerals eye pencils are made fresh to order. They\n are super soft, and once they're on they do not run or smudge easily. \nThat said - they do wash off easily as well!Ingredients: Jojoba Oil, Castor Oil, Carnauba Wax, \nCandelillia Wax, Ozokerite Wax, Vitamin E, Mica, and Iron Oxides\nMineral pencils expire within 6 months of purchase.",
-        "rating": 3.4,
-        "category": "pencil",
-        "product_type": "eyeliner",
-        "tag_list": [
-            "Natural",
-            "Vegan",
-            "Canadian"
-        ],
-        "created_at": "2016-10-01T18:28:52.926Z",
-        "updated_at": "2017-12-23T20:51:30.288Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/227.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/227/original/data?1514062290",
-        "product_colors": [
-            {
-                "hex_value": "#322423",
-                "colour_name": "Espresso "
-            }
-        ]
-    },
+   
     {
         "id": 226,
         "brand": "revlon",
@@ -25523,30 +25355,7 @@
             }
         ]
     },
-    {
-        "id": 210,
-        "brand": null,
-        "name": "Pysicians Formula Eye Booster Cushion Liquid Liner + Serum Ultra Black",
-        "price": "15.99",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/7edeec469ab0103287cdc2c984b39d28_ra,w158,h184_pa,w158,h184.png",
-        "product_link": "https://well.ca/products/pysicians-formula-eye-booster_112247.html",
-        "website_link": "https://well.ca",
-        "description": "Unique & Professional Cushion Eyeliner: Innovative liquid formula with sponge cushion delivery system dispenses the perfect amount of eyeliner onto your brush for a precise, sophisticated line every time. Advanced formula includes lash boosting complex that enhances the appearance of lashes while providing instant definition in one step.Features:Includes eyeliner brush for easy, mistake-proof applicationHigh-tech formula is long-wearing, water-resistant and smudge-resistant24-hour wearDirections: Apply eyeliner at the base of lashes. Never apply eyeliner inside the lash line. Keep cap tightly closed to prevent product from drying out. Wipe off brush on clean tissue after each use. Ingredients: Water/Eau, Iron Oxides, Acrylates Copolymer, Butylene Glycol, Black 2, Stearic Acid, Glyceryl Stearate, Oleyl Alcohol, Polybutene, Myristoyl Pentapeptide-17, Panthenol, Troxerutin, Tocopheryl Acetate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Caprylyl Glycol, Cellulose Gum, Ethylhexylglycerin, Glycerin, Hectorite, Hexylene Glycol, Magnesium Aluminum Silicate, Styrene/Acrylates Copolymer, Triethanolamine, Xanthan Gum, 1,2-Hexanediol, Benzoic Acid, Phenoxyethanol, Sodium Benzoate ",
-        "rating": null,
-        "category": "liquid",
-        "product_type": "eyeliner",
-        "tag_list": [
-            "Gluten Free",
-            "Natural"
-        ],
-        "created_at": "2016-10-01T18:28:31.363Z",
-        "updated_at": "2017-12-23T20:51:25.270Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/210.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/210/original/open-uri20171223-4-5m9ed8?1514062285",
-        "product_colors": []
-    },
+    
     {
         "id": 209,
         "brand": "annabelle",
@@ -28875,54 +28684,7 @@
             }
         ]
     },
-    {
-        "id": 120,
-        "brand": "suncoat",
-        "name": "Suncoat Girl Nail Beauty Kit with Decals Ballerina Beauty",
-        "price": "22.49",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/0c72c8cb27e4c89746e353a332474c81_ra,w158,h184_pa,w158,h184.jpeg",
-        "product_link": "https://well.ca/products/suncoat-girl-nail-beauty-kit-with_74571.html",
-        "website_link": "https://well.ca",
-        "description": "This Suncoat Girl Nail Beauty Kit with Decals is the ideal \"try-me\" pack or birthday gift! This three bottle set delivers fun and unique nail art designs with natural nail polish and nail decals.Features:    Water-based nail polish    Peel-able    No remover needed    Safe and non toxicKit Contains:    Ballerina Beauty color (8 mL)    Strawberry Delight color (8 mL)    Clear Topcoat (8 mL)    1 Page of Nail DecalsIngredients: water, polyurethane. May contain: mica, titanium dioxide, carmine, ferric ferrocyanide, chromium oxide green, iron oxide",
-        "rating": 4.0,
-        "category": null,
-        "product_type": "nail_polish",
-        "tag_list": [
-            "Canadian",
-            "Natural"
-        ],
-        "created_at": "2016-10-01T18:26:03.724Z",
-        "updated_at": "2017-12-23T20:51:03.088Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/120.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/120/original/data?1514062263",
-        "product_colors": []
-    },
-    {
-        "id": 119,
-        "brand": "suncoat",
-        "name": "Suncoat Girl Nail Beauty Kit with Decals Mermaid Princess",
-        "price": "22.49",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/a05895c3b7792308c116e07ff7325f3a_ra,w158,h184_pa,w158,h184.jpeg",
-        "product_link": "https://well.ca/products/suncoat-girl-nail-beauty-kit-with_74570.html",
-        "website_link": "https://well.ca",
-        "description": "This Suncoat Girl Nail Beauty Kit with Decals is the ideal \"try-me\" pack or birthday gift! This three bottle set delivers fun and unique nail art designs with natural nail polish and nail decals.Features:    Water-based nail polish    Peel-able    No remover needed    Safe and non toxicKit Contains:    Mermaid Blue color (8 mL)    Princess Purple color (8 mL)    Clear Topcoat (8 mL)    1 Page of Nail DecalsIngredients: water, polyurethane. May contain: mica, titanium dioxide, carmine, ferric ferrocyanide, chromium oxide green, iron oxide",
-        "rating": 4.0,
-        "category": null,
-        "product_type": "nail_polish",
-        "tag_list": [
-            "Canadian",
-            "Natural"
-        ],
-        "created_at": "2016-10-01T18:26:02.121Z",
-        "updated_at": "2017-12-23T20:51:02.898Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/119.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/119/original/data?1514062262",
-        "product_colors": []
-    },
+   
     {
         "id": 117,
         "brand": "l'oreal",
@@ -28944,110 +28706,7 @@
         "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/117/original/data?1514062262",
         "product_colors": []
     },
-    {
-        "id": 116,
-        "brand": "piggy paint",
-        "name": "Piggy Paint Nail Polish",
-        "price": "11.99",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/b52e199adc7a7a95d3b910cc234ffd65_ra,w158,h184_pa,w158,h184.jpeg",
-        "product_link": "https://well.ca/products/piggy-paint-nail-polish_81387.html",
-        "website_link": "https://well.ca",
-        "description": "Piggy Paint is specially formulated from natural ingredients and dries \nto a hard, durable finish. This kids nail polish has no toxic chemicals; it’s free of \nformaldehyde, toluene, phthalates, Bisphenol A, ethyl acetate and \nacetone.Say good-bye to harsh, smelly chemicals and hello to Piggy Paint…this natural nail polish is as Natural as Mud!Features: Non-toxicLow OdorWater-based formulaHypoallergenicFun, vibrant colorsDries to a hard, durable finishCruelty-freeHas a little bit of sparkle in the colourSafe for use during Pregnancy!Directions: Wash hands with soap and water.Apply 2 -3 thin coats of Piggy Paint.Air dry 60 seconds.Blow dry polished nails for 1 minute with hair dryer set on warm heat/low blower setting. For safety purposes, please follow manufacturer’s instructions on blow dryer and always monitor your child.Ingredients: Water, acrylates copolymers, melia azadirachta (neem oil).  May contain:\n mica, red 34 lake, ultramarines, titanium dioxide, iron oxide pigments.",
-        "rating": 4.3,
-        "category": null,
-        "product_type": "nail_polish",
-        "tag_list": [
-            "Natural"
-        ],
-        "created_at": "2016-10-01T18:25:57.245Z",
-        "updated_at": "2017-12-23T20:51:02.048Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/116.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/116/original/data?1514062262",
-        "product_colors": [
-            {
-                "hex_value": "#FDA4A6",
-                "colour_name": "Angel Kisses (Soft, Light Pink) "
-            },
-            {
-                "hex_value": "#EB00A1",
-                "colour_name": "Berry Go Round (Raspberry Inspired Fuschia) "
-            },
-            {
-                "hex_value": "#2762B2",
-                "colour_name": "Brand SpankN Blue (Royal Blue Glitter) "
-            },
-            {
-                "hex_value": "#8CB4C4",
-                "colour_name": "Bubble Trouble "
-            },
-            {
-                "hex_value": "#BC6497",
-                "colour_name": "Fairy Fabulous (Soft Purple) "
-            },
-            {
-                "hex_value": "#EB5C78",
-                "colour_name": "Forever Fancy (Shimmer, Bright Pink "
-            },
-            {
-                "hex_value": "#C84F85",
-                "colour_name": "Girls Rule! (Bright, Shimmery Purple) "
-            },
-            {
-                "hex_value": "#B0246B",
-                "colour_name": "Glamour Girl (Purple Shimmer with Silver Glitter) "
-            },
-            {
-                "hex_value": "#889D9E",
-                "colour_name": "GlitterBug (Silver Glitter) "
-            },
-            {
-                "hex_value": "#F78DCF",
-                "colour_name": "Jazz It Up (Bright Pink Shimmer) "
-            },
-            {
-                "hex_value": "#FF199F",
-                "colour_name": "LOL (Neon Magenta With Shimmer) "
-            },
-            {
-                "hex_value": "#20A4CB",
-                "colour_name": "Mer-maid in the Shade (Creme, Ocean Blue) "
-            },
-            {
-                "hex_value": "#D1DFCA",
-                "colour_name": "Mint to Be (Creme, Mint Green) "
-            },
-            {
-                "hex_value": "#EECCCD",
-                "colour_name": "Muddles the Pig "
-            },
-            {
-                "hex_value": "#FF8C6F",
-                "colour_name": "Peace of Cake (Creme, Peachy Coral) "
-            },
-            {
-                "hex_value": "#BCA8C4",
-                "colour_name": "Periwinkle Little Star (Creme, Pastel Orchid) "
-            },
-            {
-                "hex_value": "#FD92BE",
-                "colour_name": "PINKie Promise (Creme, Neon Pink) "
-            },
-            {
-                "hex_value": "#EDE6DC",
-                "colour_name": "Radioactive (Glows in the Dark)  "
-            },
-            {
-                "hex_value": "#53C5D0",
-                "colour_name": "Sea-quin (Creme, Bright Turquoise) "
-            },
-            {
-                "hex_value": "#EACBC9",
-                "colour_name": "Sweetpea (Sheer Pink) "
-            }
-        ]
-    },
+    
     {
         "id": 115,
         "brand": "suncoat",
@@ -30851,35 +30510,7 @@
             }
         ]
     },
-    {
-        "id": 71,
-        "brand": "pacifica",
-        "name": "Pacifica Devocean Natural Lipstick Deeply Devoted Creamy Color",
-        "price": "21.0",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/54eca0da1259fdc4eed0346e6fdcb590_ra,w158,h184_pa,w158,h184.jpeg",
-        "product_link": "https://well.ca/products/pacifica-devocean-natural-lipstick_94362.html",
-        "website_link": "https://well.ca",
-        "description": "Pacifica Devocean Lipstick is a 100% natural, hydrating vegan lipstick that will last with intensity, like the deepest of love.What look do you go for: the natural bronzed babe, tropical brights, or classic beauty? Try all three with this get the look with natural makeup piece found on our blog, The Well! Formulated without: Animal ingredients (including carmine, \nbeeswax and lanolin), animal testing. FD & C colors, mineral oil, \nparabens, phthalates, petroleum, propylene glycol, SLS, gluten, peanut \noil and other ingredients you don't want on your skin.",
-        "rating": 4.3,
-        "category": "lipstick",
-        "product_type": "lipstick",
-        "tag_list": [
-            "Natural",
-            "Vegan"
-        ],
-        "created_at": "2016-10-01T18:24:53.472Z",
-        "updated_at": "2017-12-23T20:50:55.441Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/71.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/071/original/open-uri20171223-4-1b53nbg?1514062255",
-        "product_colors": [
-            {
-                "hex_value": "#EB7583",
-                "colour_name": "XOX "
-            }
-        ]
-    },
+    
     {
         "id": 70,
         "brand": "burt's bees",
@@ -32777,36 +32408,7 @@
         "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/021/original/data?1514061109",
         "product_colors": []
     },
-    {
-        "id": 20,
-        "brand": "maybelline",
-        "name": "Maybelline Great Lash Mascara",
-        "price": "7.79",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/6b4d354890177a73b4d6630d723c2f21_ra,w158,h184_pa,w158,h184.jpeg",
-        "product_link": "https://well.ca/products/maybelline-great-lash-mascara_3735.html",
-        "website_link": "https://well.ca",
-        "description": "Great Lash Waterproof Mascara conditions as it thickens lashes. The lash-doubling formula glides on smoothly to build great-looking smudge-proof lashes. The lash-building brush makes it easy to get a full lash look without clumps. Hypoallergenic and contact lens safe.\nAllure 2008 Reader's Choice Award Winner for drugstore mascara.\n",
-        "rating": 4.2,
-        "category": null,
-        "product_type": "mascara",
-        "tag_list": [],
-        "created_at": "2016-10-01T18:11:09.921Z",
-        "updated_at": "2017-12-23T20:31:50.950Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/20.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/020/original/data?1514061110",
-        "product_colors": [
-            {
-                "hex_value": "#120C0A",
-                "colour_name": "Brownish Black "
-            },
-            {
-                "hex_value": "#0E0F11",
-                "colour_name": "Very Black "
-            }
-        ]
-    },
+    
     {
         "id": 19,
         "brand": "l'oreal",
@@ -33027,36 +32629,7 @@
             }
         ]
     },
-    {
-        "id": 11,
-        "brand": "maybelline",
-        "name": "Maybelline Volum' Express The Rocket Mascara",
-        "price": "10.99",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/0b04408a84154f14800e4c9477f8a924_ra,w158,h184_pa,w158,h184.png",
-        "product_link": "https://well.ca/products/maybelline-volum-express-the-rocket_84350.html",
-        "website_link": "https://well.ca",
-        "description": "Explosive Volume in Rocket Time! 8X Bigger, Smoother.\n\nNow, the most explosive, beautiful lashes ever! Maybelline's patented supersonic \nbrush with micro bristles loads on big, sleek volume instantly.\n\nThe fast-glide formula keeps lashes smooth. Zero clumps!",
-        "rating": null,
-        "category": null,
-        "product_type": "mascara",
-        "tag_list": [],
-        "created_at": "2016-10-01T18:10:58.856Z",
-        "updated_at": "2017-12-23T20:31:47.966Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/11.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/011/original/open-uri20171223-4-iiztlg?1514061107",
-        "product_colors": [
-            {
-                "hex_value": "#000000",
-                "colour_name": "Blackest Black "
-            },
-            {
-                "hex_value": "#202020",
-                "colour_name": "Very Black "
-            }
-        ]
-    },
+    
     {
         "id": 10,
         "brand": "l'oreal",
@@ -33321,39 +32894,6 @@
                 "colour_name": "Carbon Black "
             }
         ]
-    },
-    {
-        "id": 1,
-        "brand": "pure anada",
-        "name": "Pure Anada Natural Mascara",
-        "price": "14.0",
-        "price_sign": null,
-        "currency": null,
-        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/afefede002b8d94f6e53ea07dd4070f9_ra,w158,h184_pa,w158,h184.jpg",
-        "product_link": "https://well.ca/products/pure-anada-natural-mascara_83255.html",
-        "website_link": "https://well.ca",
-        "description": "Finally, a natural mascara you can feel good about putting on your lashes!\nIt is naturally paraben-free, gluten-free, and mercury-free. \nYou will be amazed at how well this mascara builds volume and length to your lashes.\nThis is the natural mascara you’ve been waiting for!Ingredients: Aqua (Water), Oryza Sativa Wax (Rice Bran Wax), Olea Europea fruit oil \n(Olive Oil), Vegetable Source Cetyl Alcohol (Coconut), Coernica Cerifera\n (Carnauba Wax), Euphorbia Cerifera (Candelilla Wax), Vegetable \nGlycerin, Stearic Acid, Acacia Gum, Black Iron oxide (CI 77499),  \nAminomethyl Popandiol (Ph Adjuster), Phenoxyethanol (Preservative).",
-        "rating": 4.6,
-        "category": null,
-        "product_type": "mascara",
-        "tag_list": [
-            "Natural",
-            "Gluten Free",
-            "Canadian"
-        ],
-        "created_at": "2016-10-01T18:10:46.893Z",
-        "updated_at": "2017-12-23T20:31:46.013Z",
-        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/1.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/001/original/data?1514061104",
-        "product_colors": [
-            {
-                "hex_value": "#000000",
-                "colour_name": "Black "
-            },
-            {
-                "hex_value": "#3E2829",
-                "colour_name": "Brown "
-            }
-        ]
     }
+   
 ]
