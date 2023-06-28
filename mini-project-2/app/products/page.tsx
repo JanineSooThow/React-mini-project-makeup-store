@@ -4,7 +4,7 @@ import Pagination from 'react-bootstrap/Pagination';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import useSWR from 'swr';
-import '../../src/components/assets/css/Allproducts.css'; // Import your custom CSS file
+ import '../../src/components/assets/css/Allproducts.css'; // Import your custom CSS file
 
 interface Product {
   image_link: string;
@@ -20,8 +20,8 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 function AllProducts() {
 
   const { data, error, isLoading } = useSWR<Product[]>(
-    'https://makeup-api.herokuapp.com/api/v1/products.json',
-    // "/api/staticdata.jsx",
+    // 'https://makeup-api.herokuapp.com/api/v1/products.json',
+    '/api/apidata.json',
     fetcher
   );
 
