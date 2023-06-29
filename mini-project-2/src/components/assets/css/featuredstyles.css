@@ -1,11 +1,28 @@
 /*Featured Products and Header */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
 .custom-navbar{
     background-color: black;
-    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-end;
 }
 
 .custom-navlink{
-    color: pink;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
 }
 /*Featured Products on homepage*/
 .parent-container {

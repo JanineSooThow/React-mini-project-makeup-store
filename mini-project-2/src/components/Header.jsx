@@ -11,16 +11,16 @@ export default function Header() {
   return (
       <>
     <Navbar className="custom-navbar" variant="dark">
-      <Container>
-        <Navbar.Brand href="#home">Makeup Mirage</Navbar.Brand>
+    <Container>
+      <Navbar.Brand className ="logo"> </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link className="custom-navlink"href="/products">All products</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/skin">Skin</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/lips">Lips</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/eyes">Eyes</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/nails">Nails</Nav.Link>
-          <Nav.Link className="custom-navlink"href="/blog">Blog</Nav.Link>
-          
+          <Nav.Link> <Link href="/products"className="custom-navlink">ALL</Link></Nav.Link>
+          <Nav.Link> <Link href="/skin"className="custom-navlink">SKIN</Link></Nav.Link>
+          <Nav.Link> <Link href="/lips"className="custom-navlink">LIPS</Link></Nav.Link>
+          <Nav.Link> <Link href="/"> <img src ="./images/Nestedlogo2.png" alt="Store Logo" style={{width:'auto', height: 'auto'}}/></Link></Nav.Link>
+          <Nav.Link> <Link href="/eyes"className="custom-navlink">EYES</Link></Nav.Link>
+          <Nav.Link> <Link href="/nails"className="custom-navlink">NAILS</Link></Nav.Link>
+          <Nav.Link> <Link href="/blog"className="custom-navlink">BLOG</Link></Nav.Link>          
         </Nav>
       </Container>
     </Navbar>
