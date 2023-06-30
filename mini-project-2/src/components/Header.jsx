@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -7,20 +7,29 @@ import Link from 'next/link';
 
 
 export default function Header() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
     
   return (
       <>
-    <Navbar className="custom-navbar" variant="dark">
+  <Navbar className="custom-navbar" variant="dark">
     <Container>
       <Navbar.Brand className ="logo"> </Navbar.Brand>
         <Nav className="me-auto">
+          {isClient && (
+          <>
           <Nav.Link> <Link href="/products"className="custom-navlink">ALL</Link></Nav.Link>
           <Nav.Link> <Link href="/skin"className="custom-navlink">SKIN</Link></Nav.Link>
           <Nav.Link> <Link href="/lips"className="custom-navlink">LIPS</Link></Nav.Link>
           <Nav.Link> <Link href="/"> <img src ="./images/Nestedlogo2.png" alt="Store Logo" style={{width:'auto', height: 'auto'}}/></Link></Nav.Link>
           <Nav.Link> <Link href="/eyes"className="custom-navlink">EYES</Link></Nav.Link>
           <Nav.Link> <Link href="/nails"className="custom-navlink">NAILS</Link></Nav.Link>
-          <Nav.Link> <Link href="/blog"className="custom-navlink">BLOG</Link></Nav.Link>          
+          <Nav.Link> <Link href="/blog"className="custom-navlink">BLOG</Link></Nav.Link> 
+          </>
+          )}         
         </Nav>
       </Container>
     </Navbar>

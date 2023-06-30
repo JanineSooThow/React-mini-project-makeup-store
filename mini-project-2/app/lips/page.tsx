@@ -28,8 +28,8 @@ function AllProducts() {
     onSuccess: (data) => {
       const filteredData = data.filter(
         (product) =>
-          product.product_type === 'lipstick' ||
-          product.product_type === 'lip_liner' 
+          product.product_type === "lipstick" ||
+          product.product_type === "lip_liner" 
       );
       setData(filteredData);
     }

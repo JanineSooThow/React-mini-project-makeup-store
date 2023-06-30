@@ -28,10 +28,10 @@ function AllProducts() {
     onSuccess: (data) => {
       const filteredData = data.filter(
         (product) =>
-          product.product_type === 'mascara' ||
-          product.product_type === 'eyeshadow' ||
-          product.product_type === 'eyeliner' ||
-          product.product_type === 'eyebrow'
+          product.product_type === "mascara"||
+          product.product_type === "eyeshadow"||
+          product.product_type === "eyeliner" ||
+          product.product_type === "eyebrow"
       );
       setData(filteredData);
     }

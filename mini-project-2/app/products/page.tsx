@@ -1,5 +1,5 @@
 "use client"
-import React, {useState, useEffect}from 'react';
+import React, {useState}from 'react';
 import Pagination from 'react-bootstrap/Pagination';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';

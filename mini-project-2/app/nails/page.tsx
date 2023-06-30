@@ -28,7 +28,7 @@ function AllProducts() {
     onSuccess: (data) => {
       const filteredData = data.filter(
         (product) =>
-          product.product_type === 'nail_polish'
+          product.product_type === "nail_polish"
       );
       setData(filteredData);
     }

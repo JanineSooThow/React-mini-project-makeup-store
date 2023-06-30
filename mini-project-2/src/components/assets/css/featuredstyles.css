@@ -20,8 +20,11 @@
     color: white;
     text-decoration: none;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: center;
+    align-items:flex-end;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
     
 }
 /*Featured Products on homepage*/

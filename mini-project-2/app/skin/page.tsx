@@ -28,9 +28,9 @@ function AllProducts() {
     onSuccess: (data) => {
       const filteredData = data.filter(
         (product) =>
-          product.product_type === 'bronzer' ||
-          product.product_type === 'blush' ||
-          product.product_type === 'foundation'
+          product.product_type === "bronzer"||
+          product.product_type === "blush"||
+          product.product_type === "foundation"
       );
       setData(filteredData);
     }
