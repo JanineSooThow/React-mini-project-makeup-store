@@ -12,7 +12,7 @@ export default function Header() {
   useEffect(() => {
     setIsClient(true);
   }, []);
-    
+
   return (
       <>
   <Navbar className="custom-navbar" variant="dark">

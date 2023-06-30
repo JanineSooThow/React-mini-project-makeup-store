@@ -1,9 +1,21 @@
 .pagination-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
   }
-  
+  /*this changes the color of the pagination text. In Boostrap, the class '.page-link' is automatically applied to the links within each pagination item. */
+.pagination-container .page-link {
+  color:black;
+}
+
+  /* Modify the color of the active pagination item */
+.pagination-container .page-item.active .page-link {
+  color: white;
+}
+
+  /*for the cards */
   .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -12,39 +24,63 @@
   
   .products-card {
     width: 200px;
-    margin: 10px;
+    height: 450px; 
+    margin: 10px; /*space between each card*/
+    
   }
   
+  /* alters image in each card */
   .product-image {
-    width: 200px;
-    height: 250px;
+    object-fit: cover;
+    width: 198px;
+    height: 230px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
   }
   
-  .no-image {
+   .no-image {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 250px;
     background-color: lightgray;
-  }
+  } 
   
+  /*brand name of product in each card*/
   .card-title {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
-  }
-  
-  .card-name {
-    font-size: 16px;
-  }
-  
-  .card-dollarsign {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  .button-container {
     display: flex;
     justify-content: center;
   }
   
+  /*name of the product in each card */
+  .card-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  /*price of the product in each card*/
+  .card-dollarsign {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /*button in each card */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+  .button-container button {
+    font-size: 15px; /* Adjust the font size as desired */
+  }

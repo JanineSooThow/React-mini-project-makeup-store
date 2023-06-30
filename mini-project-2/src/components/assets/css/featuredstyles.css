@@ -27,6 +27,9 @@
     text-align: center;
     
 }
+.custom-icon {
+    color: white;
+}
 /*Featured Products on homepage*/
 .parent-container {
     display: flex;

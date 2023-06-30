@@ -100,6 +100,7 @@ function AllProducts() {
 
 export default AllProducts;
 
+
     
 
 //OLD CODE 
