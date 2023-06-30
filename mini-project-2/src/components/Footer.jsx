@@ -1,7 +1,12 @@
 import React from "react";
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdb-react-ui-kit';
 
+
+
 export default function Footer() {
+  const handleSubscribe = () => {
+    alert('Thank you, we will be in touch soon!');
+  };
   return (
     <MDBFooter bgColor='light' className='text-center text-dark text-lg-left'>
       <MDBContainer className='p-4 pb-0'>
@@ -14,12 +19,12 @@ export default function Footer() {
             </MDBCol>
             
             <MDBCol md='5' size='12' className='mb-4 mb-md-0'>
-                <MDBInput type='text' id='form5Example2' input="email" placeholder="Email" value="email" />
+                <MDBInput type='text' id='form5Example2' input ="email" placeholder="Email"  /> 
             </MDBCol>
 
            {/*Subscribe button*/}
             <MDBCol size='auto' className='mb-4 mb-md-0'>
-              <MDBBtn outline color='dark'>
+              <MDBBtn outline color='dark'onClick={handleSubscribe}>
                 Subscribe
               </MDBBtn>
             </MDBCol>

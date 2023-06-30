@@ -6,6 +6,7 @@ import './assets/css/featuredstyles.css';
 import Link from 'next/link';
 
 
+
 export default function Header() {
   const [isClient, setIsClient] = useState(false);
 
