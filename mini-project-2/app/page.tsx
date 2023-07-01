@@ -16,6 +16,7 @@ const HomePage: React.FC = () => {
       </StyledImgContainer>
       <br></br>
       <Featured></Featured>
+      
      
    </div>
     </>

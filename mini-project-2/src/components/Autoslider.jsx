@@ -17,7 +17,7 @@ const Autoslider = () => {
       './images/image4.jpg',
       './images/image5.jpg',
     ];
- 
+
 //'useEffect' hook sets up a timer using 'setInterval' to auto update the 'currentSlide' state 
 //The 'setCurrentSlide' function is used to update the state by incrementing 'prevSlide' by 1, cycling bakc to 0 when it reaches the end of the 'images' array 
     useEffect(() => {

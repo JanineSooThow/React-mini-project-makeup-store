@@ -4,8 +4,9 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdb-r
 
 
 export default function Footer() {
+
   const handleSubscribe = () => {
-    alert('Thank you, we will be in touch soon!');
+    alert("Thank you for subscribing to our newsletter!");
   };
   return (
     <MDBFooter bgColor='light' className='text-center text-dark text-lg-left'>
@@ -23,7 +24,7 @@ export default function Footer() {
             </MDBCol>
            {/*Subscribe button*/}
             <MDBCol size='auto' className='mb-4 mb-md-0'>
-              <MDBBtn outline color='dark'onClick={handleSubscribe}>
+              <MDBBtn outline color='dark'onClick={handleSubscribe} className='no-focus-outline'>
                 Subscribe
               </MDBBtn>
             </MDBCol>
