@@ -21,7 +21,6 @@ export default function Footer() {
             <MDBCol md='5' size='12' className='mb-4 mb-md-0'>
                 <MDBInput type='text' id='form5Example2' input ="email" placeholder="Email"  /> 
             </MDBCol>
-
            {/*Subscribe button*/}
             <MDBCol size='auto' className='mb-4 mb-md-0'>
               <MDBBtn outline color='dark'onClick={handleSubscribe}>
