@@ -1,3 +1,4 @@
+//searchFilter - NOT WORKING YET 
 import React, { useState } from 'react';
 import useSWR from 'swr';
 
