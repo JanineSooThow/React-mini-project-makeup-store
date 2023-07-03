@@ -116,7 +116,8 @@ Follow the link to the Github Classroom repo and clone it to your local computer
    Styled Components
    MDB - react-ui-kit
    react-js-pagination
-   Fontawesome for icons 
+   Fontawesome for icons
+   Canva, Unsplash, Pixabay for stock images 
  ```
 
 </br>
