@@ -53,9 +53,9 @@ function AllProducts() {
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
   const currentProducts = data.slice(indexOfFirstProduct, indexOfLastProduct);
 
-  if (!currentProducts || currentProducts.length === 0) {
-    return <h2>No products found.</h2>;
-  }
+  // if (!currentProducts || currentProducts.length === 0) {
+  //   return <h2>No products found.</h2>;
+  // }
 
   return (
     <div>

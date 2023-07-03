@@ -57,7 +57,7 @@ function AllProducts() {
   return (
     <div>
       {/* Adding the SearchFilter component
-      <SearchFilter brand={data}/> */}
+      <SearchFilter brand={data}/>  */}
       <div className="pagination-container">
         <Pagination>
             {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (

@@ -64,14 +64,21 @@ Follow the link to the Github Classroom repo and clone it to your local computer
 
 ▪ What was your requirements gathering and design process? Was it useful/successful?
    ```md
-   answer here
+  1. User registration and account: to provide whether you will require users to create accoutns to make purchases or provide a guest checkout option
+ 2. Secure payment gateway - integrating a secure and reliable payment gateway is essential to process online transactions securely - unsuccessful in implementing this due to time constraints however this is something I will continue to work on for this project. 
+ 3. Security measures - although this was not implemented for this project as the aim was to create a dynamic front-end, this is important to consider to prtct customer data and maintain a secure browsing experience. 
+ 4. Inventory management - althought this was not implemented for this project, this is something I would like to continue working on. The aim will be to manage the inventory effectively which will involve tracking stock levels, updating product availability and ensuring accurate info is displayed to customers. 
+ 5. Privacy and data collection 
    ```
 
 </br>
 
 ▪ Give a high level overview of your application and its features.
  ```md
-   answer here
+    Makeup Mirage is an ecommerce website that sells makeup products for women online. Its key features are:
+  1. Account profile: The website allows individuals to create a personal account 
+  2. Blog: the blog will contain an updated stream of blogposts, videos and photos and other content (such as events and groups) to keep users updated and informed. 
+  3. Newsletter: Users can subscribe to the ecommerce newsletter. 
  ```
 
 
@@ -79,21 +86,25 @@ Follow the link to the Github Classroom repo and clone it to your local computer
 
 ▪ How can the user interact with this app?
  ```md
-   answer here
+      The user goes to the landing page where there is an autoslider of images and a navigation bar (the header) and a footer (with more links and a form to subscribe to the store's newsletter). The user can click on each link in the navbar and it will take them to a page (depending on the products they are looking for). The products from the API have been filtered according to product_type. The user can click on each product and can also navigate back to the homepage. 
+
+   The user should be able to click on the icons in the navbar and add items to the shopping cart. They can also click the avatar and login or fill out a form. 
  ```
 
 </br>
 
 ▪ Which specific methods from the React library have you utilized in your projects, and what are your experiences or insights regarding their usage and effectiveness?
  ```md
-   answer here
+   Components
+   Props 
+   Hooks - useState and useEffect
 ```
 
 </br>
 
 ▪ If you used Next.JS, could you please share your thoughts on the routing capabilities it offers? How does the routing functionality in Next.js compare to other frameworks or libraries you have worked with in terms of ease of use, flexibility, and any notable features?
  ```md
-   answer here
+  Using the app router (which is the updated version) is much easier than using the pages router. With the app router, the pages automatically become a route. 
 ```
 
 </br>
@@ -101,14 +112,21 @@ Follow the link to the Github Classroom repo and clone it to your local computer
 ▪ What external tools/libraries have you used? How? Why?
 *(eg. bootstrap/material ui/tailwind)*
  ```md
-   answer here
+   React Bootstrap 
+   Styled Components
+   MDB - react-ui-kit
+   react-js-pagination
+   Fontawesome for icons 
  ```
 
 </br>
 
 ▪ How might you extend the features of your application in future?
  ```md
-   answer here
+   I would like to add more interactive content to the blog section such as videos on how to put on makeup which will also contain advice on different products. 
+   I would like to create a secure payment gateway and magnify the images of each card when they are clicked on along with the descriptions of the product allow users to submit feedback. 
+   Have a virtual assistant that works so customers can have their queries responded to 24/7 
+   I would like to add security mesures, have a way to manage inventory effectively, and update shipping and fulfillment.
  ```
 
  </br>
@@ -121,7 +139,7 @@ Follow the link to the Github Classroom repo and clone it to your local computer
 
 
  ```md
-   answer here
+  The data came from an external API 'https://makeup-api.herokuapp.com/api/v1/products.json' however this API had to be modified as some of the products in this API had no images or the image URLs were broken. To counteract this I read through this document https://vercel.com/guides/loading-static-file-nextjs-api-route and followed the steps here. I created a file called apidata.json. Then I created a file called staticdata.js ie pages/api folder in my app folder - which created a serverless function that will load the json data from the file and return it as a response
  ```
 
 
@@ -129,7 +147,7 @@ Follow the link to the Github Classroom repo and clone it to your local computer
 
 
  ```md
-   answer here
+One of the benefits of using TypeScript compared to JavaScript is that TypeScript can pick up errors and it will tell you whereas JS doesn't. 
  ```
 
 </br></br></br></br></br>
