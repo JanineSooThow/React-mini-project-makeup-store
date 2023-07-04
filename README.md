@@ -1,6 +1,6 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11326299&assignment_repo_type=AssignmentRepo)
 </br></br></br>
-# THIS PROJECT IS STILL UNDERGOING WORK 
+# "Please note that this project is a work in progress and is still being actively worked on
 ![iod logo](https://x4w8f4y8.rocketcdn.me/wp-content/uploads/2020/05/iod_h_tp_white_c.png)
 </br></br></br>
 ![iod_miniproject_2](https://i.ibb.co/GQrydxK/Screenshot-2023-06-07-at-8-41-59-PM.png)
