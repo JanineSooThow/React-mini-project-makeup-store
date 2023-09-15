@@ -62,49 +62,5 @@ export default function Header() {
   </>
 );
 }
-// import styled from "styled-components";
-
-// // header
-// const StyledHeader = styled.header`
-//     background-color: black;
-//     width: 100%;
-//     padding: 20px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     position: fixed
-   
-//     @media (max-width: 768px) {
-//         flex-direction: column;
-//         padding: 10px;
-//       }
-// `;
-
-// // Makeup Mirage Logo in header
-// const Logo = styled.h1`
-//     color: #ffc2d1;
-//     font-size: 30px;
-//     margin-right: 90px
-
-//     @media (max-width: 768px) {
-//         margin-right: 0;
-//         margin-bottom: 10px;
-//       }
-// `;
-
-// // other links in header
-// const StyledLink = styled.a`
-//     font-family: "Montserrat", sans-serif;
-//     font-size: 16px;
-//     color: #ffc2d1;
-//     text-decoration: none;
-//     margin-right: 70px;
-
-//     @media (max-width: 768px) {
-//         margin-right: 0;
-//         margin-bottom: 10px;
-//       }
-// `;
-
 
 

@@ -1,3 +1,4 @@
+/*This file contains code for CSS */
 .pagination-container {
     display: flex;
     justify-content: center;
@@ -5,13 +6,13 @@
     margin-bottom: 10px;
 
   }
-  /*this changes the color of the pagination text. In Boostrap, the class '.page-link' is automatically applied to the links within each pagination item. */
+/*this changes the color of the pagination text. In Boostrap, the class '.page-link' is automatically applied to the links within each pagination item. */
 .pagination-container .page-link {
     color:black; 
     background-color: white;
 }
 
-  /* Modify the color of the active pagination item. If 2 is clicked, then 2 is white and background is black*/
+  /* This code modifies the color of the active pagination item. If 2 is clicked, then 2 is white and background is black*/
 .pagination-container .page-item.active .page-link {
     color: white;
     background-color: black;
@@ -91,5 +92,5 @@
     
   }
   .button-container button {
-    font-size: 15px; /* Adjust the font size as desired */
+    font-size: 15px; 
   }

@@ -2,7 +2,6 @@ import React from "react";
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdb-react-ui-kit';
 
 
-
 export default function Footer() {
 
   const handleSubscribe = () => {
@@ -13,14 +12,14 @@ export default function Footer() {
       <MDBContainer className='p-4 pb-0'>
         <form action=''>
           <MDBRow className='d-flex justify-content-center'>
-            <MDBCol size='auto' className='mb-4 mb-md-0'>
+            <MDBCol size='auto' className='mb-5 mb-md-0'>
               <p className='pt-2'>
                 <strong>Sign up for our newsletter</strong>
               </p>
             </MDBCol>
             
             <MDBCol md='5' size='12' className='mb-4 mb-md-0'>
-                <MDBInput type='text' id='form5Example2' input ="email" placeholder="Email"  /> 
+                <MDBInput type='text' id='string' value ="email" placeholder="Email"  /> 
             </MDBCol>
            {/*Subscribe button*/}
             <MDBCol size='auto' className='mb-4 mb-md-0'>
