@@ -1,4 +1,4 @@
-//TypeScript code fora  React functional component called 'Skin'. 
+//TypeScript code for a  React functional component called 'Skin'. 
 //React and Next.js have been used for this project.
 
 import React, { useState } from 'react';
