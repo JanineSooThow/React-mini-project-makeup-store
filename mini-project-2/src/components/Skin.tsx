@@ -18,6 +18,7 @@ interface Product {
   product_type: string; 
 }
 
+{/*making an HTTP request via fetch*/}
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 function Skin() {
@@ -26,6 +27,7 @@ function Skin() {
 
   const productsPerPage = 100;
 
+  {/*using useSWR hook to fetch the API data and filter it to only include products: bronzer, blush or foundation*/}
   const { error, isLoading } = useSWR<Product[]>('/api/apidata.json', fetcher, {
     onSuccess: (data) => {
       const filteredData = data.filter(
