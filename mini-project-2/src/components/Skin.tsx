@@ -49,17 +49,19 @@ function Skin() {
  {/*total number of pages needed for pagination based on array length and number of products to display per page */}
  const totalPages = Math.ceil((data.length || 0) / productsPerPage);
 
- {/*clicking on the page number changes the displayed page of products*/}
+ {/*clicking on the page number changes/updates the current displayed page of products*/}
   const handlePageClick = (pageNumber: number) => {
     setCurrentPage(pageNumber);
   };
-
+  
+  {/*Pagination calculations*/}
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
   const currentProducts = data.slice(indexOfFirstProduct, indexOfLastProduct);
 
   return (
     <div>
+      {/*Pagination*/}
       <div className="pagination-container">
         <Pagination>
           {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
@@ -73,7 +75,7 @@ function Skin() {
           ))}
         </Pagination>
       </div>
-      {/*Product card*/}
+      {/*Card code below*/}
       <div className="card-container">
         {currentProducts.map((product: Product, index: number) => (
           <Card key={index} className="products-card">
