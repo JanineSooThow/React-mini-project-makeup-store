@@ -21,7 +21,7 @@ interface Product {
 {/*making an HTTP request via fetch*/}
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-function Skin() {
+function skinProducts() {
   const [currentPage, setCurrentPage] = useState(1);
   const [data, setData] = useState<Product[]>([]); 
 
@@ -61,6 +61,7 @@ function Skin() {
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
   const currentProducts = data.slice(indexOfFirstProduct, indexOfLastProduct);
 
+  {/*rendering pagination and product cards */}
   return (
     <div>
       {/*Pagination*/}
@@ -104,4 +105,4 @@ function Skin() {
   );
 }
 
-export default Skin;
+export default skinProducts;
