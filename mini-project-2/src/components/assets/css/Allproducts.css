@@ -8,7 +8,7 @@
   }
 /*this changes the color of the pagination text. In Boostrap, the class '.page-link' is automatically applied to the links within each pagination item. */
 .pagination-container .page-link {
-    color:black; 
+    color: black; 
     background-color: white;
 }
 

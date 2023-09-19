@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import useSWR from 'swr';
 import '../../src/components/assets/css/Allproducts.css'; // Import your custom CSS file
 
-interface Product {
+interface eyeMakeupProduct {
   image_link: string;
   brand: string;
   name: string;
@@ -20,11 +20,11 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 function eyeProducts() {
   const [currentPage, setCurrentPage] = useState(1);
-  const [data, setData] = useState<Product[]>([]); // Add the setData hook
+  const [data, setData] = useState<eyeMakeupProduct[]>([]); // Add the setData hook
 
   const productsPerPage = 100;
 
-  const { error, isLoading } = useSWR<Product[]>('/api/apidata.json', fetcher, {
+  const { error, isLoading } = useSWR<eyeMakeupProduct[]>('/api/apidata.json', fetcher, {
     onSuccess: (data) => {
       const filteredData = data.filter(
         (product) =>
@@ -75,7 +75,7 @@ function eyeProducts() {
         </Pagination>
       </div>
       <div className="card-container">
-        {currentProducts.map((product: Product, index: number) => (
+        {currentProducts.map((product: eyeMakeupProduct, index: number) => (
           <Card key={index} className="products-card">
             {product.image_link ? (
               <Card.Img variant="top" className="product-image" src={product.image_link} />
