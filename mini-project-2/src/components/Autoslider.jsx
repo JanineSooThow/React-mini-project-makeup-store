@@ -1,3 +1,4 @@
+
 //Autoslider exports to homepage -page.tsx under app folder 
 //importing two functionalities from the React library to enhance the capabilities of your functional components
 import React, { useState, useEffect } from 'react';
@@ -34,7 +35,7 @@ const Autoslider = () => {
 
     return (
       <StyledContainer >
-        <Carousel activeIndex={currentSlide} onSelect={handleSlideSelect} interval= {null}>
+        <Carousel activeIndex={currentSlide} onSelect={handleSlideSelect} interval= {4000}>
           {images.map((image, index) => (
             <Carousel.Item key={index}>
               <StyledImgContainer>

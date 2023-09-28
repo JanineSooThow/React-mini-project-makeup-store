@@ -91,7 +91,7 @@ function AllProducts() {
                 {products.price} {products.currency}
               </Card.Text>
               <div className="button-container">
-                <Button variant="dark">Buy now</Button>
+                <Button variant="dark">Add to cart</Button>
               </div>
             </Card.Body>
           </Card>

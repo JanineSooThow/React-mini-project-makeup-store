@@ -1,17 +1,3 @@
-// import React from 'react';
-
-// //product is a prop
-// export default function FeaturedItem(props) {
-//     return (
-//         <div className="featured-item">
-//             <img src={props.imageURL} alt={props.name} style={{width: '200px', height: '250px'}}/>
-//             <h4>{props.brand}</h4>
-//             <p>{props.name}</p>
-//         </div>
-//     );
-// }
-//style={{ width: '200px', height: '250px' }}
-//Using React Bootstrap Cards
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import '../assets/css/featuredstyles.css';

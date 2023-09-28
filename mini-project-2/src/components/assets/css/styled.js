@@ -4,7 +4,8 @@ import styled from 'styled-components'
 // Padding: 1st value (top), 2nd value (R padding), 3rd value (bottom), 4th value (left)
 export const StyledContainer = styled.div `
     max-width: 1200px;
-    // border: 2px solid red;    
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
 
     @media (max-width: 1200px) {
         padding: 5% 5% 5%;
@@ -19,15 +20,14 @@ export const StyledImgContainer = styled.div `
     display: block;
     justify-content: center;
     align-items: center;
-    // border 2px solid blue;
     margin: 0 auto;
-    width: 1000px;
-    height: 570px;
+    width: 100%; /* was 1000px before. Use max-width for responsiveness */
+    height: auto;
     padding-top: 10px;
 
     @media (max-width: 768px) {
-        max-width: 90%;
-        height: auto;
+        // max-width: 90%;
+        // height: auto;
         padding-top: 30px;
       }
 `;

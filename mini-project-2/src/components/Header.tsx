@@ -7,7 +7,8 @@ import Link from 'next/link';
 //Install font Awesome dependencies npm install @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons 
 //Create a layout.js file in the app folder to import the Font Awesome core styles and config# prior to using the icons 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faHeart, faCartShopping, faUser} from "@fortawesome/free-solid-svg-icons";
+import {faHeart, faCartShopping} from "@fortawesome/free-solid-svg-icons";
+import '../components/assets/css/navStyle.css'
 
 
 
@@ -20,7 +21,7 @@ export default function Header() {
 
   return (
       <>
-  <Navbar className="custom-navbar" variant="dark">
+  <Navbar className="navbar" variant="dark">
     <Container>
       <Navbar.Brand className ="logo"> </Navbar.Brand>
         <Nav className="me-auto d-flex align-items-center">
@@ -29,7 +30,9 @@ export default function Header() {
           <Nav.Link> <Link href="/products"className="custom-navlink">ALL</Link></Nav.Link>
           <Nav.Link> <Link href="/skin"className="custom-navlink">SKIN</Link></Nav.Link>
           <Nav.Link> <Link href="/lips"className="custom-navlink">LIPS</Link></Nav.Link>
-          <Nav.Link> <Link href="/"> <img src ="./images/Nestedlogo2.png" alt="Store Logo" style={{width:'auto', height: 'auto'}}/></Link></Nav.Link>
+          <div className="center-logo"> {/* Center the logo */}
+            <Nav.Link> <Link href="/"> <img src="./images/Nestedlogo2.png" alt="Store Logo" style={{ width: 'auto', height: 'auto' }} /></Link></Nav.Link>
+          </div>
           <Nav.Link> <Link href="/eyes"className="custom-navlink">EYES</Link></Nav.Link>
           <Nav.Link> <Link href="/nails"className="custom-navlink">NAILS</Link></Nav.Link>
           <Nav.Link> <Link href="/blog"className="custom-navlink">BLOG</Link></Nav.Link> 
@@ -49,13 +52,7 @@ export default function Header() {
                   style={{color: "white"}}
                   icon={faCartShopping}
                   />
-                  </Nav.Link>
-            <Nav.Link href="#">
-              <FontAwesomeIcon
-                  style={{color: "white"}}
-                  icon={faUser}
-                  />
-                  </Nav.Link>.
+                  </Nav.Link>      
                </Nav>     
       </Container>
     </Navbar>
