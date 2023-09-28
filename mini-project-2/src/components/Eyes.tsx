@@ -18,7 +18,7 @@ interface eyeMakeupProduct {
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-function eyeProducts() {
+function EyeProducts() {
   const [currentPage, setCurrentPage] = useState(1);
   const [data, setData] = useState<eyeMakeupProduct[]>([]); // Add the setData hook
 
@@ -100,4 +100,4 @@ function eyeProducts() {
   );
 }
 
-export default eyeProducts;
+export default EyeProducts;

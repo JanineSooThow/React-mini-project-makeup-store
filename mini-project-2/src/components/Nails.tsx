@@ -18,7 +18,7 @@ interface Product {
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-function nailProducts() {
+function NailProducts() {
   const [currentPage, setCurrentPage] = useState(1);
   const [data, setData] = useState<Product[]>([]); // Add the setData hook
 
@@ -97,4 +97,4 @@ function nailProducts() {
   );
 }
 
-export default nailProducts;
+export default NailProducts;

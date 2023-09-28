@@ -18,7 +18,7 @@ interface Product {
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-function lipProducts() {
+function LipProducts() {
   const [currentPage, setCurrentPage] = useState(1);
   const [data, setData] = useState<Product[]>([]); // Add the setData hook
 
@@ -98,4 +98,4 @@ function lipProducts() {
   );
 }
 
-export default lipProducts;
+export default LipProducts;

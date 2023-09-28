@@ -21,7 +21,7 @@ interface Product {
 {/*making an HTTP request via fetch*/}
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-function skinProducts() {
+function SkinProducts() {
   const [currentPage, setCurrentPage] = useState(1);
   const [data, setData] = useState<Product[]>([]); 
 
@@ -105,4 +105,4 @@ function skinProducts() {
   );
 }
 
-export default skinProducts;
+export default SkinProducts;
