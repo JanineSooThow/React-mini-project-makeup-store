@@ -4,38 +4,13 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdb-r
 
 export default function Footer() {
 
-  const handleSubscribe = () => {
-    alert("Thank you for subscribing to our newsletter!");
-  };
   return (
     <MDBFooter bgColor='light' className='text-center text-dark text-lg-left'>
-      <MDBContainer className='p-4 pb-0'>
-        <form action=''>
-          <MDBRow className='d-flex justify-content-center'>
-            <MDBCol size='auto' className='mb-5 mb-md-0'>
-              <p className='pt-2'>
-                <strong>Sign up for our newsletter</strong>
-              </p>
-            </MDBCol>
-            
-            <MDBCol md='5' size='12' className='mb-4 mb-md-0'>
-                <MDBInput type='text' id='string' value ="email" placeholder="Email"  /> 
-            </MDBCol>
-           {/*Subscribe button*/}
-            <MDBCol size='auto' className='mb-4 mb-md-0'>
-              <MDBBtn outline color='dark'onClick={handleSubscribe} className='no-focus-outline'>
-                Subscribe
-              </MDBBtn>
-            </MDBCol>
-          </MDBRow>
-        </form>
-      </MDBContainer>
-
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
-            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-5'>
+              <h6 className='text-uppercase fw-bold mb-4 mt-4'>
                 MAKEUP MIRAGE
               </h6>
               <p>
@@ -44,10 +19,10 @@ export default function Footer() {
             </MDBCol>
 
           {/*ABOUT Column */}
-            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
+            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4 mt-4'>
               <h6 className='text-uppercase fw-bold mb-4'>ABOUT</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/about' className='text-reset'>
                   About Us 
                 </a>
               </p>
@@ -62,39 +37,39 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/terms' className='text-reset'>
                   Ts & Cs
                 </a>
               </p>
             </MDBCol>
 
           {/*CUSTOMER CARE column*/}
-            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4 mt-4'>
               <h6 className='text-uppercase fw-bold mb-4'>CUSTOMER CARE</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/blog' className='text-reset'>
                   The Blog
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/faq' className='text-reset'>
                   FAQs
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/shipping' className='text-reset'>
                   Shipping Info
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/returns' className='text-reset'>
                   Returns
                 </a>
               </p>
             </MDBCol>
 
           {/*CONTACT Column*/}
-            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4 mt-4'>
               <h6 className='text-uppercase fw-bold mb-4'>CONTACT</h6>
               <p>
                 Auckland, AKL NZ

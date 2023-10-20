@@ -1,5 +1,5 @@
 //eye products component
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import Pagination from 'react-bootstrap/Pagination';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -18,9 +18,10 @@ interface EyeMakeupProduct {
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-function EyeProducts() {
+function Eyes() {
   const [currentPage, setCurrentPage] = useState(1);
   const [data, setData] = useState<EyeMakeupProduct[]>([]); // Add the setData hook
+
 
   const productsPerPage = 100;
 
@@ -100,4 +101,4 @@ function EyeProducts() {
   );
 }
 
-export default EyeProducts;
+export default Eyes;

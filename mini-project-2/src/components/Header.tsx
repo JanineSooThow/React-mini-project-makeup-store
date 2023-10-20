@@ -7,9 +7,8 @@ import Link from 'next/link';
 //Install font Awesome dependencies npm install @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons 
 //Create a layout.js file in the app folder to import the Font Awesome core styles and config# prior to using the icons 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faHeart, faCartShopping} from "@fortawesome/free-solid-svg-icons";
+import {faCartShopping} from "@fortawesome/free-solid-svg-icons";
 import '../components/assets/css/navStyle.css'
-
 
 
 export default function Header() {
@@ -42,15 +41,10 @@ export default function Header() {
         </Nav>
           <Nav className ="icon-container">
             <Nav.Link href="#">
-              <FontAwesomeIcon 
-                  style={{color: "white" }}
-                  icon={faHeart} 
-                  />
-                  </Nav.Link>
-            <Nav.Link href="#">
               <FontAwesomeIcon
                   style={{color: "white"}}
                   icon={faCartShopping}
+                  size="2x"
                   />
                   </Nav.Link>      
                </Nav>     

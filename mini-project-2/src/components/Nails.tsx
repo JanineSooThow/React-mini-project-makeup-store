@@ -1,3 +1,5 @@
+
+
 // nail products component
 import React, { useState } from 'react';
 import Pagination from 'react-bootstrap/Pagination';
@@ -7,6 +9,7 @@ import useSWR from 'swr';
 import '../../src/components/assets/css/Allproducts.css'; // Import your custom CSS file
 
 interface Product {
+  id: number;
   image_link: string;
   brand: string;
   name: string;
@@ -18,7 +21,7 @@ interface Product {
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-function NailProducts() {
+function Nails() {
   const [currentPage, setCurrentPage] = useState(1);
   const [data, setData] = useState<Product[]>([]); // Add the setData hook
 
@@ -55,6 +58,7 @@ function NailProducts() {
   // if (!currentProducts || currentProducts.length === 0) {
   //   return <h2>No products found.</h2>;
   // }
+  
 
   return (
     <div>
@@ -97,4 +101,4 @@ function NailProducts() {
   );
 }
 
-export default NailProducts;
+export default Nails;

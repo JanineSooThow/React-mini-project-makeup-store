@@ -15,7 +15,7 @@ const featuredproducts = [
   {imageURL: "https://www.clinique.com/media/export/cms/products/181x209/clq_7C5H01_181x209.png", brand: "Clinique", name: "Repairwear Smooth Makeup Foundation"},
 ];
 
-//Using React Bootsrap 
+//Using React Bootstrap 
 export default function FeaturedList(props) {
   return (
     <div className="parent-container"> 
